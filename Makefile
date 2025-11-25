@@ -12,7 +12,8 @@ help:
 # Scrub session docs for new TIL content
 # Uses Claude Code to analyze session files and suggest TILs
 scrub:
-	@claude --print "Scan ~/dev/**/docs/sessions for recent session files. Look for interesting learnings, patterns, or solutions that would make good TILs. For each potential TIL found, show: 1) suggested category, 2) suggested filename, 3) a brief summary. Skip anything already covered by existing TILs in this repo. Focus on practical, reusable knowledge."
+	@mkdir -p docs/sessions
+	@claude --print --output-file docs/sessions/scrub-$$(date +%Y%m%d-%H%M%S).md "Scan ~/dev/**/docs/sessions for recent session files. Look for interesting learnings, patterns, or solutions that would make good TILs. For each potential TIL found, show: 1) suggested category, 2) suggested filename, 3) a brief summary. Skip anything already covered by existing TILs in this repo. Focus on practical, reusable knowledge."
 
 # Create a new unpublished TIL
 # Usage: make new CATEGORY=elixir NAME=my-til-name

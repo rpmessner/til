@@ -4,7 +4,7 @@
 
 A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. Inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_27 TILs and counting..._
+_26 TILs and counting..._
 
 ---
 
@@ -21,7 +21,6 @@ _27 TILs and counting..._
 - [SuperCollider](#supercollider)
 - [tmux](#tmux)
 - [Vulkan](#vulkan)
-- [WoW](#wow)
 - [WSL2](#wsl2)
 - [ZSH](#zsh)
 
@@ -81,10 +80,6 @@ _27 TILs and counting..._
 ### Vulkan
 
 - [Simple C-Style Vulkan Initialization](vulkan/simple-c-style-vulkan-init.md)
-
-### WoW
-
-- [Combat Log Variable Field Positions](wow/combat-log-variable-field-positions.md)
 
 ### WSL2
 

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Use clip.exe for WSL2 to Windows Clipboard

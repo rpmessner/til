@@ -1,10 +1,11 @@
-.PHONY: scrub new help
+.PHONY: scrub new help verify
 
 # Default target
 help:
 	@echo "TIL Management Tasks"
 	@echo "===================="
 	@echo "make scrub    - Scan ~/dev/**/docs/sessions for TIL-worthy content"
+	@echo "make verify   - Verify published TILs for accuracy (run after scrub)"
 	@echo "make new      - Create a new unpublished TIL (usage: make new CATEGORY=elixir NAME=my-til-name)"
 	@echo "make publish  - List all unpublished TILs"
 	@echo "make count    - Count published vs unpublished TILs"
@@ -14,6 +15,12 @@ help:
 scrub:
 	@mkdir -p docs/scrubs
 	@claude --print --output-file docs/scrubs/scrub-$$(date +%Y%m%d-%H%M%S).md "Scan ~/dev/**/docs/sessions for recent session files. Look for interesting learnings, patterns, or solutions that would make good TILs. For each potential TIL found, show: 1) suggested category, 2) suggested filename, 3) a brief summary. Skip anything already covered by existing TILs in this repo. Focus on practical, reusable knowledge."
+
+# Verify published TILs for accuracy
+# Reviews TILs for session-generated inaccuracies like fabricated versions, wrong API names, etc.
+verify:
+	@mkdir -p docs/verifications
+	@claude --print --output-file docs/verifications/verify-$$(date +%Y%m%d-%H%M%S).md "Review all published TILs (published: true) in this repo for accuracy issues. Look for: 1) Fabricated version numbers or release names that don't exist, 2) API function names that may be incorrect or hallucinated, 3) Claims about specific library behavior without verification, 4) Any content that appears to be session-generated speculation rather than verified fact. For each issue found, specify: the file path, the problematic claim, and why it's suspect. Recommend unpublishing TILs with clear inaccuracies."
 
 # Create a new unpublished TIL
 # Usage: make new CATEGORY=elixir NAME=my-til-name

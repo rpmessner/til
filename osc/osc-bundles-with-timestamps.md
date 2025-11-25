@@ -27,7 +27,7 @@ Bundle format:
 <message>      (variable - encoded OSC message)
 ```
 
-Useful OSC library functions (from erlang-osc):
+Useful OSC library functions (from [waveform's osc.erl](https://github.com/rpmessner/waveform/blob/master/src/osc.erl), based on original code by Joe Armstrong):
 - `:osc.now()` - Current time as float (seconds since epoch)
 - `:osc.pack_ts(time, message)` - Create bundle with timestamp
 - `:osc.encode_time(time)` - Convert to NTP timestamp format

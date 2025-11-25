@@ -1,0 +1,32 @@
+# GitHub Pages / Jekyll configuration
+title: TIL
+description: Today I Learned - A collection of concise write-ups on small things I learn day to day
+author: rpmessner
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Don't publish drafts by default
+show_drafts: false
+
+# Exclude from build
+exclude:
+  - Makefile
+  - README.md
+  - LICENSE
+  - .gitignore
+  - "*.sh"
+
+# Include markdown files from subdirectories
+include:
+  - "*.md"
+
+# Default frontmatter for all posts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      published: false

@@ -12,13 +12,7 @@ help:
 # Scrub session docs for new TIL content
 # Uses Claude Code to analyze session files and suggest TILs
 scrub:
-	@echo "Scanning ~/dev/**/docs/sessions for TIL-worthy content..."
-	@find ~/dev -path "*/docs/sessions/*" -name "*.md" -o -path "*/docs/sessions/*" -name "*.jsonl" 2>/dev/null | \
-		head -20 | \
-		xargs -I {} echo "Found: {}"
-	@echo ""
-	@echo "To analyze these sessions, run Claude Code in this directory and ask:"
-	@echo "  'Analyze the session files in ~/dev/**/docs/sessions and suggest new TILs'"
+	@claude --print "Scan ~/dev/**/docs/sessions for recent session files. Look for interesting learnings, patterns, or solutions that would make good TILs. For each potential TIL found, show: 1) suggested category, 2) suggested filename, 3) a brief summary. Skip anything already covered by existing TILs in this repo. Focus on practical, reusable knowledge."
 
 # Create a new unpublished TIL
 # Usage: make new CATEGORY=elixir NAME=my-til-name

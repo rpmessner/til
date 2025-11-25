@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Use Dual Prefix to Prevent Accidental Ctrl+Z Suspend

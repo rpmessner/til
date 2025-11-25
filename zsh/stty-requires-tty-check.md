@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Check for TTY Before Running stty Commands

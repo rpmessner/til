@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Strip CRLF Line Endings in WSL2 Shell Completions

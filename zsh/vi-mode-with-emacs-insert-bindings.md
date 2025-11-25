@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # ZSH Vi-Mode with Emacs Insert Keybindings

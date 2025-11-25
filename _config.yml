@@ -3,6 +3,10 @@ title: TIL
 description: Today I Learned - A collection of concise write-ups on small things I learn day to day
 author: rpmessner
 
+# URL settings for project pages (served at /til/)
+baseurl: /til
+url: https://rpmessner.github.io
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

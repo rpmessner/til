@@ -4,7 +4,7 @@
 
 A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. Inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_20 TILs and counting..._
+_27 TILs and counting..._
 
 ---
 
@@ -19,8 +19,11 @@ _20 TILs and counting..._
 - [OSC](#osc)
 - [Phoenix](#phoenix)
 - [SuperCollider](#supercollider)
+- [tmux](#tmux)
 - [Vulkan](#vulkan)
 - [WoW](#wow)
+- [WSL2](#wsl2)
+- [ZSH](#zsh)
 
 ---
 
@@ -53,6 +56,7 @@ _20 TILs and counting..._
 
 ### Neovim
 
+- [Rebuild Treesitter Parsers After Architecture Change](neovim/architecture-mismatch-treesitter-parsers.md)
 - [Claude Code Stores Session History in JSONL Files](neovim/claude-code-stores-history-in-jsonl.md)
 
 ### OSC
@@ -69,6 +73,11 @@ _20 TILs and counting..._
 - [SuperDirt is Not a Pattern Parser](supercollider/superdirt-is-not-a-pattern-parser.md)
 - [Use s.sync Before Emitting Ready Markers](supercollider/use-s-sync-before-ready-markers.md)
 
+### tmux
+
+- [Use Dual Prefix to Prevent Accidental Ctrl+Z Suspend](tmux/dual-prefix-prevents-accidental-suspend.md)
+- [Disable tmux Terminal Features with @ Suffix](tmux/disable-osc52-with-at-suffix.md)
+
 ### Vulkan
 
 - [Simple C-Style Vulkan Initialization](vulkan/simple-c-style-vulkan-init.md)
@@ -76,6 +85,16 @@ _20 TILs and counting..._
 ### WoW
 
 - [Combat Log Variable Field Positions](wow/combat-log-variable-field-positions.md)
+
+### WSL2
+
+- [Use clip.exe for WSL2 to Windows Clipboard](wsl2/clip-exe-for-clipboard.md)
+
+### ZSH
+
+- [Check for TTY Before Running stty Commands](zsh/stty-requires-tty-check.md)
+- [Strip CRLF Line Endings in WSL2 Shell Completions](zsh/fzf-tab-crlf-handling.md)
+- [ZSH Vi-Mode with Emacs Insert Keybindings](zsh/vi-mode-with-emacs-insert-bindings.md)
 
 ---
 

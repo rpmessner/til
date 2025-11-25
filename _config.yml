@@ -21,6 +21,7 @@ exclude:
   - LICENSE
   - .gitignore
   - "*.sh"
+  - docs/
 
 # Include markdown files from subdirectories
 include:

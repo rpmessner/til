@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Use Marker Constants Instead of Version-Dependent Strings
 
 When detecting events from external processes by parsing their output, don't rely on version-specific strings that could change:

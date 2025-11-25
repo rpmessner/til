@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Fix Race Conditions with Atomic Updates in Ecto
 
 When you have a read-modify-write pattern like incrementing a counter, you're vulnerable to race conditions:

@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Elixir Streams for Large File Parsing
 
 Use `File.stream!` with `Enum.reduce` for efficient stateful processing of large files:

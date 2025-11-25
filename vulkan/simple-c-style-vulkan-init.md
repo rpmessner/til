@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Simple C-Style Vulkan Initialization
 
 Instead of wrapping Vulkan in complex class hierarchies, use a plain C struct and functions:

@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Symlink compile_commands.json for LSP Support
 
 CMake generates `compile_commands.json` in the build directory, but LSP tools like clangd look for it in the project root. Create a symlink:

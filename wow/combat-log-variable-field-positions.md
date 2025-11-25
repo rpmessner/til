@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # WoW Combat Log Variable Field Positions
 
 WoW's combat log format has variable field positions when Advanced Combat Logging is enabled. Don't assume fixed positions:

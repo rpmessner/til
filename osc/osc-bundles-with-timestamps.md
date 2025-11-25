@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # OSC Bundles with Timestamps for Precise Audio Scheduling
 
 OSC (Open Sound Control) bundles allow you to schedule messages with precise timestamps, which is essential for audio applications:

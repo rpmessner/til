@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Dual-Mode Library: Embedded vs Remote
 
 Design libraries to support both embedded mode (same BEAM VM) and remote mode (separate process) with a single codebase:

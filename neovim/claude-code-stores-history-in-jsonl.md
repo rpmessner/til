@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Claude Code Stores Session History in JSONL Files
 
 Claude Code writes comprehensive session history to `~/.claude/projects/` in JSONL format, regardless of where it's used (terminal, Neovim, etc.).

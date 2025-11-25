@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Parse CSV with Quoted Strings Using Regex
 
 When parsing CSV data that contains quoted strings with commas inside them, a simple `String.split(",")` won't work:

@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # SuperDirt is Not a Pattern Parser
 
 A common misconception: SuperDirt is NOT a pattern language parser. It's only a sample playback engine.

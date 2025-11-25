@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Pattern Namespacing with Atoms
 
 When building systems that handle multiple concurrent clients (Discord guilds, Livebook cells, Neovim buffers), use atom-based pattern IDs for isolation:

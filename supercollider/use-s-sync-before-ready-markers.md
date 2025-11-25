@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Use s.sync Before Emitting Ready Markers in SuperCollider
 
 When emitting "ready" markers from SuperCollider, always use `s.sync` first to ensure the server has actually finished processing:

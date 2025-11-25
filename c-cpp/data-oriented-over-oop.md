@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Data-Oriented Design Over OOP
 
 Following Jonathan Blow's philosophy, prefer simple structs and functions over class hierarchies:

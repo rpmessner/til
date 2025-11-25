@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Disable Ecto Repo for Non-Database Phoenix Apps
 
 If your Phoenix app doesn't need a database (e.g., a visualization tool, calculator, or API proxy), you can disable Ecto to avoid database connection errors:

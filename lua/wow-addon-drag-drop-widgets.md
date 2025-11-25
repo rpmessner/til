@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # WoW Addon Drag-and-Drop Widget System
 
 Create draggable widgets in WoW addons using Button frames with drag handlers:

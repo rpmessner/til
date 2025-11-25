@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Cross-Compile Windows Executables from Linux with MinGW
 
 You can build Windows `.exe` files directly from Linux using MinGW-w64, avoiding the need for a Windows development environment.

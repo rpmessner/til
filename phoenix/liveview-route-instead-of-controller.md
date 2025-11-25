@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Use LiveView Routes Instead of Controllers for Interactive Pages
 
 For interactive pages, use `live` routes directly instead of routing through a controller:

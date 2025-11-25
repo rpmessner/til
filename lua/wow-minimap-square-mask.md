@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # Make WoW Minimap Square with SetMaskTexture
 
 Transform the circular WoW minimap into a square using `SetMaskTexture`:

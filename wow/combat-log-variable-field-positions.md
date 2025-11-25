@@ -1,6 +1,8 @@
 ---
-published: true
+published: false
 ---
+
+> **Warning:** This TIL was generated from a Claude session and contains inaccurate information. Do not trust session-generated content without verification against official documentation.
 
 # WoW Combat Log Variable Field Positions
 

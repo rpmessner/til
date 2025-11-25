@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Rebuild Treesitter Parsers After Architecture Change

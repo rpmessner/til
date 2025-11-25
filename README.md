@@ -83,6 +83,24 @@ _20 TILs and counting..._
 
 These TILs are mined from development session notes across various projects. Each entry focuses on a single, practical learning that can be applied immediately.
 
+## Usage
+
+```bash
+# Create a new unpublished TIL
+make new CATEGORY=elixir NAME=my-new-til
+
+# List unpublished TILs
+make publish
+
+# Count published vs unpublished
+make count
+
+# Scan session docs for TIL ideas
+make scrub
+```
+
+New TILs are created with `published: false` in the frontmatter. Change to `published: true` when ready to publish to GitHub Pages.
+
 ## License
 
 MIT

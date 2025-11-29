@@ -4,16 +4,18 @@
 
 A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. Inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_27 TILs and counting..._
+_33 TILs and counting..._
 
 ---
 
 ### Categories
 
+- [Algorithms](#algorithms)
 - [C/C++](#c-cpp)
 - [CMake](#cmake)
 - [Ecto](#ecto)
 - [Elixir](#elixir)
+- [JavaScript](#javascript)
 - [Lua](#lua)
 - [Neovim](#neovim)
 - [OSC](#osc)
@@ -26,6 +28,10 @@ _27 TILs and counting..._
 - [ZSH](#zsh)
 
 ---
+
+### Algorithms
+
+- [Bjorklund's Algorithm for Euclidean Rhythms](algorithms/bjorklund-euclidean-rhythm.md)
 
 ### C-Cpp
 
@@ -48,6 +54,13 @@ _27 TILs and counting..._
 - [Pattern Namespacing with Atoms](elixir/pattern-namespacing-with-atoms.md)
 - [Streams for Large File Parsing](elixir/streams-for-large-file-parsing.md)
 - [Use Marker Constants Instead of Version-Dependent Strings](elixir/use-marker-constants-not-version-strings.md)
+- [Skip Comments in NimbleParsec Parsers](elixir/nimbleparsec-skip-comments.md)
+
+### JavaScript
+
+- [CodeMirror 6 Keymap Priority](javascript/codemirror-keymap-priority.md)
+- [Generate Reverb Impulse Responses Procedurally](javascript/procedural-reverb-impulse-response.md)
+- [Web Audio Effects Chain Order](javascript/web-audio-effects-chain-order.md)
 
 ### Lua
 
@@ -89,6 +102,7 @@ _27 TILs and counting..._
 ### WSL2
 
 - [Use clip.exe for WSL2 to Windows Clipboard](wsl2/clip-exe-for-clipboard.md)
+- [Symlink from WSL2 to Windows Filesystem](wsl2/symlink-to-windows-filesystem.md)
 
 ### ZSH
 

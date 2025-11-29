@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Web Audio Effects Chain Order

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # CodeMirror 6 Keymap Priority

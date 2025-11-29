@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Bjorklund's Algorithm for Euclidean Rhythms

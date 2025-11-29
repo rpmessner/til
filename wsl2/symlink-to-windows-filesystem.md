@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Symlink from WSL2 to Windows Filesystem
@@ -18,6 +18,8 @@ cat ~/dev/myproject/CLAUDE.md  # Shows content from Windows file
 
 # Edits in Obsidian (Windows) are immediately visible in WSL
 ```
+
+**Caveat:** This works reliably when WSL reads through the symlink. The reverse (Windows following symlinks created in WSL) has known issues and may show invalid junctions.
 
 Useful for:
 - Obsidian vault as source of truth for project documentation

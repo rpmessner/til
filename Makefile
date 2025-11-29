@@ -14,13 +14,13 @@ help:
 # Uses Claude Code to analyze session files and suggest TILs
 scrub:
 	@mkdir -p docs/scrubs
-	@claude --print --output-file docs/scrubs/scrub-$$(date +%Y%m%d-%H%M%S).md "Scan ~/dev/**/docs/sessions for recent session files. Look for interesting learnings, patterns, or solutions that would make good TILs. For each potential TIL found, show: 1) suggested category, 2) suggested filename, 3) a brief summary. Skip anything already covered by existing TILs in this repo. Focus on practical, reusable knowledge."
+	@claude --print "Scan ~/dev/**/docs/sessions for recent session files. Look for interesting learnings, patterns, or solutions that would make good TILs. For each potential TIL found, show: 1) suggested category, 2) suggested filename, 3) a brief summary. Skip anything already covered by existing TILs in this repo. Focus on practical, reusable knowledge." | tee docs/scrubs/scrub-$$(date +%Y%m%d-%H%M%S).md
 
 # Verify published TILs for accuracy
 # Reviews TILs for session-generated inaccuracies like fabricated versions, wrong API names, etc.
 verify:
 	@mkdir -p docs/verifications
-	@claude --print --output-file docs/verifications/verify-$$(date +%Y%m%d-%H%M%S).md "Review all published TILs (published: true) in this repo for accuracy issues. Look for: 1) Fabricated version numbers or release names that don't exist, 2) API function names that may be incorrect or hallucinated, 3) Claims about specific library behavior without verification, 4) Any content that appears to be session-generated speculation rather than verified fact. For each issue found, specify: the file path, the problematic claim, and why it's suspect. Recommend unpublishing TILs with clear inaccuracies."
+	@claude --print "Review all published TILs (published: true) in this repo for accuracy issues. Look for: 1) Fabricated version numbers or release names that don't exist, 2) API function names that may be incorrect or hallucinated, 3) Claims about specific library behavior without verification, 4) Any content that appears to be session-generated speculation rather than verified fact. For each issue found, specify: the file path, the problematic claim, and why it's suspect. Recommend unpublishing TILs with clear inaccuracies." | tee docs/verifications/verify-$$(date +%Y%m%d-%H%M%S).md
 
 # Create a new unpublished TIL
 # Usage: make new CATEGORY=elixir NAME=my-til-name
